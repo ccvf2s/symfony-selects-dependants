@@ -25,6 +25,7 @@ in your current project:
     * cd /var/www/html/[your-directory-git]
     * bin/console do:sc:cr -e=dev
     * bin/console do:fi:lo -e=dev
+    * bin/console assets:install -e=dev
     
     And enjoy at: 192.168.56.104/carma/web/app_dev.php
     
