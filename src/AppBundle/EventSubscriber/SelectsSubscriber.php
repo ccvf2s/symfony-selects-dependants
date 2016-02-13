@@ -3,7 +3,6 @@
 namespace AppBundle\EventSubscriber;
 
 use AppBundle\Entity\Brand;
-use AppBundle\Entity\Model;
 use AppBundle\Entity\TypeCar;
 use AppBundle\Repository\BrandRepository;
 use AppBundle\Repository\TypeCarRepository;
