@@ -1,0 +1,12 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+<div id="select-in">
+    {{ render(controller('AppBundle:Default:form')) }}
+</div>
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    <script src="{{ asset('bundles/app/index.js') }}" type="text/javascript"></script>
+{% endblock %}

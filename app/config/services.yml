@@ -1,0 +1,28 @@
+# Liste des types de services
+services:
+
+    # Liste des repository
+    app_repository_type_car:
+        class: AppBundle\Repository\TypeCarRepository
+        factory: ["@doctrine.orm.default_entity_manager", getRepository]
+        arguments: ["AppBundle:TypeCar"]
+
+    app_repository_brand:
+        class: AppBundle\Repository\BrandRepository
+        factory: ["@doctrine.orm.default_entity_manager", getRepository]
+        arguments: ["AppBundle:Brand"]
+
+    # Formulaires services
+    app_form_selects_dependants:
+        class: AppBundle\Form\Type\SelectsDependantsType
+        arguments: ["@app_subscriber_selects"]
+        tags:
+        - {name: form.type, alias: app_selects_dependants}
+
+
+    # Subscribers
+    app_subscriber_selects:
+        class: AppBundle\EventSubscriber\SelectsSubscriber
+        arguments: ["@app_repository_type_car", "@app_repository_brand"]
+        tags:
+        - {name: kernel.event_subscriber}
