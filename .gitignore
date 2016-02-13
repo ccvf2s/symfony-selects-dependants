@@ -4,9 +4,6 @@
 !app/cache/.gitkeep
 !app/logs/.gitkeep
 
-# PHPSTORM
-/.idea
-
 # Vagrant
 /.vagrant
 
