@@ -21,6 +21,7 @@ The first step if you want to use vagrant(it requires virtualbox)
 is to download it after that you can launch these differents commands
 in your current project:
 
+    * composer install
     * vagrant up
     * cd /var/www/html/[your-directory-git]
     * bin/console do:sc:cr -e=dev
