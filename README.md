@@ -2,7 +2,7 @@ Symfony selects dependants
 --------------------------
 
 Welcome to my repository about how to make Symfony Form
-dependants with Form Events.
+dependants with Form Events (How to Dynamically Modify Forms).
 
 The version of this Symfony project is 3.0.2.
 
