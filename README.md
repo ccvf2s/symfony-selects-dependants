@@ -30,6 +30,6 @@ in your current project:
     
     And enjoy at: 192.168.56.104/carma/web/app_dev.php
     
-If you want to use the project without vagrant, you can, you just
-want have APACHE, MYSQL AND PHP in your system and launch the two
+If you want to use the project without vagrant, you can install 
+APACHE, MYSQL AND PHP in your system and launch the two 
 precedents commands for Symfony 3 and enjoy!!!
