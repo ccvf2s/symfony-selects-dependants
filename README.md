@@ -9,7 +9,7 @@ The version of this Symfony project is 3.0.2.
 What is inside
 --------------
 
-This repository comme with:
+This repository come with:
 
     * Symfony 3 standard edition version 3.0.2
     * Vagrant packaged by puphpet
